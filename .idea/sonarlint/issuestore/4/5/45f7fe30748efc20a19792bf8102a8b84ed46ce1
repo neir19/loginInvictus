@@ -1,0 +1,88 @@
+
+`	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112¼"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112­"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+i
+java:S1192¥"MDefine a constant instead of duplicating this literal "entre al try" 7 times.(ƒ”¶çøÿÿÿÿ
+a
+java:S1192&"FDefine a constant instead of duplicating this literal "error" 8 times.(ÜÖ’¡üÿÿÿÿ
+h
+java:S1192-"SDefine a constant instead of duplicating this literal "SI TIENE elementos" 3 times.(¦ìŞ,
+n
+java:S11921"SDefine a constant instead of duplicating this literal "NO tiene elementos" 5 times.(ÊéÚúÿÿÿÿ
+v
+java:S1192Ó"ZDefine a constant instead of duplicating this literal " WHERE id_product =963481" 3 times.(”™ø°øÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ†‡êûÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ú—Åÿÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚†œñúÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¥·ûÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¶Ê›üÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•‰›÷
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œ¶×÷
+U
+java:S1118":Add a private constructor to hide the implicit public one.(Û‹‰Ïÿÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ùû´øûÿÿÿÿ
+E	java:S106&"+Replace this use of System.out by a logger.(ÜÖ’¡üÿÿÿÿ
+?	java:S106-"+Replace this use of System.out by a logger.(¦ìŞ,
+?	java:S106/"+Replace this use of System.out by a logger.(ûá–y
+E	java:S1061"+Replace this use of System.out by a logger.(ÊéÚúÿÿÿÿ
+@	java:S1064"+Replace this use of System.out by a logger.(šÏÙ¦
+@	java:S1065"+Replace this use of System.out by a logger.(ìÍ¦‡
+@	java:S1069"+Replace this use of System.out by a logger.(ĞËÉô
+@	java:S106="+Replace this use of System.out by a logger.(ê°–ƒ
+E	java:S106?"+Replace this use of System.out by a logger.(ÊéÚúÿÿÿÿ
+@	java:S106B"+Replace this use of System.out by a logger.(ìÍ¦‡
+E	java:S106E"+Replace this use of System.out by a logger.(ıŞ¼Æıÿÿÿÿ
+@	java:S106J"+Replace this use of System.out by a logger.(²»ƒ‡
+E	java:S106L"+Replace this use of System.out by a logger.(ÊéÚúÿÿÿÿ
+@	java:S106O"+Replace this use of System.out by a logger.(ìÍ¦‡
+V	java:S125S"<This block of commented-out lines of code should be removed.(¡»¢üùÿÿÿÿ
+@	java:S106c"+Replace this use of System.out by a logger.(©®µ´
+?	java:S106i"+Replace this use of System.out by a logger.(§ÁÃ
+@	java:S106m"+Replace this use of System.out by a logger.(ìÍ¦‡
+E	java:S106w"+Replace this use of System.out by a logger.(·¯œüÿÿÿÿ
+E	java:S106}"+Replace this use of System.out by a logger.(Â¢ÍØıÿÿÿÿ
+A	java:S106€"+Replace this use of System.out by a logger.(ìÍ¦‡
+A	java:S106ƒ"+Replace this use of System.out by a logger.(Ö±”
+F	java:S106‰"+Replace this use of System.out by a logger.(·«˜ûÿÿÿÿ
+A	java:S106"+Replace this use of System.out by a logger.(ìÍ¦‡
+F	java:S106¢"+Replace this use of System.out by a logger.(ÜÖ’¡üÿÿÿÿ
+F	java:S106¥"+Replace this use of System.out by a logger.(ƒ”¶çøÿÿÿÿ
+@	java:S106©"+Replace this use of System.out by a logger.(¦ìŞ,
+E
+java:S2140°")Use "java.util.Random.nextInt()" instead.(ş‡Í±üÿÿÿÿ
+@	java:S106±"+Replace this use of System.out by a logger.(‡´ç!
+F	java:S106µ"+Replace this use of System.out by a logger.(ÊéÚúÿÿÿÿ
+A	java:S106º"+Replace this use of System.out by a logger.(šÏÙ¦
+A	java:S106»"+Replace this use of System.out by a logger.(ìÍ¦‡
+@
+java:S1481Ç")Remove this unused "rset" local variable.(°ß¨
+F	java:S106Ï"+Replace this use of System.out by a logger.(ÜÖ’¡üÿÿÿÿ
+F	java:S106Ò"+Replace this use of System.out by a logger.(ƒ”¶çøÿÿÿÿ
+F	java:S106Ö"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ
+@
+java:S1481Ş")Remove this unused "rset" local variable.(°ß¨
+F	java:S106æ"+Replace this use of System.out by a logger.(ÜÖ’¡üÿÿÿÿ
+F	java:S106é"+Replace this use of System.out by a logger.(ƒ”¶çøÿÿÿÿ
+F	java:S106ñ"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ
+@
+java:S1481ù")Remove this unused "rset" local variable.(°ß¨
+F	java:S106"+Replace this use of System.out by a logger.(ÜÖ’¡üÿÿÿÿ
+F	java:S106„"+Replace this use of System.out by a logger.(ƒ”¶çøÿÿÿÿ
+F	java:S106Š"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ
+F	java:S106œ"+Replace this use of System.out by a logger.(ÜÖ’¡üÿÿÿÿ
+F	java:S106Ÿ"+Replace this use of System.out by a logger.(ƒ”¶çøÿÿÿÿ
+@	java:S106¥"+Replace this use of System.out by a logger.(¦ìŞ,
+F	java:S106©"+Replace this use of System.out by a logger.(ÊéÚúÿÿÿÿ
+@
+java:S1481µ")Remove this unused "rset" local variable.(°ß¨
+F	java:S106½"+Replace this use of System.out by a logger.(ÜÖ’¡üÿÿÿÿ
+F	java:S106À"+Replace this use of System.out by a logger.(ƒ”¶çøÿÿÿÿ
+F	java:S106Å"+Replace this use of System.out by a logger.(¸ŒÀİúÿÿÿÿ
+@
+java:S1481Í")Remove this unused "rset" local variable.(°ß¨
+F	java:S106Ó"+Replace this use of System.out by a logger.(ÜÖ’¡üÿÿÿÿ
+F	java:S106Ö"+Replace this use of System.out by a logger.(ƒ”¶çøÿÿÿÿ
+F	java:S106×"+Replace this use of System.out by a logger.(˜î•Äÿÿÿÿÿ
+F	java:S106İ"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ

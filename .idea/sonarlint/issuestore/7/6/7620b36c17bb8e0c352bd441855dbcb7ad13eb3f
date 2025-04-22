@@ -1,0 +1,15 @@
+
+l
+java:S3008"ORename this field "USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(רצּ־8ֵש‏שו2
+u
+java:S3008"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(לפֽ–ûÿÿÿÿ8ֵש‏שו2
+p
+java:S3008"TRename this field "EQUIMPENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½״‡98ֵש‏שו2
+:
+java:S1118"Hide this public constructor.(Û©׃—8ֹש‏שו2
+>
+java:S3010"!Remove this assignment of "USER".(ן¬Ù“8ֿש‏שו2
+G
+java:S3010"%Remove this assignment of "PASSWORD".(Þֲז‎ÿÿÿÿ8׀ש‏שו2
+H
+java:S3010"&Remove this assignment of "EQUIMPENT".(ָü—Ûשÿÿÿÿ8׀ש‏שו2

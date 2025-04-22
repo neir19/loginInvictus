@@ -1,0 +1,8 @@
+
+t
+java:S1104"RMake loader a static final constant or non-public and provide accessors if needed.(Ñ¬¸Ûüÿÿÿÿ8ø´®úå2
+N
+java:S1444",Make this "public static loader" field final(Ñ¬¸Ûüÿÿÿÿ8û´®úå2
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰œƒƒüÿÿÿÿ
+\
+java:S1118":Add a private constructor to hide the implicit public one.(üÅˆ€şÿÿÿÿ8€µ®úå2

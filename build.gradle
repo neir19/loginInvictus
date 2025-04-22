@@ -1,0 +1,53 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    serenityVersion = '4.2.0'
+    junitVersion = '4.13.2'
+    slf4jVersion = '2.0.16'
+    mavenPluginsVersion = '3.1.2'
+}
+
+dependencies {
+    implementation "net.serenity-bdd:serenity-core:${serenityVersion}"
+    implementation "net.serenity-bdd:serenity-cucumber:${serenityVersion}"
+    implementation "net.serenity-bdd:serenity-junit:${serenityVersion}"
+    implementation("net.serenity-bdd:serenity-screenplay-webdriver:4.2.0")
+    testImplementation("net.serenity-bdd:serenity-ensure:2.0.49")
+    testImplementation "junit:junit:${junitVersion}"
+    testImplementation "org.slf4j:slf4j-log4j12:${slf4jVersion}"
+    implementation group: 'com.oracle.database.jdbc', name: 'ojdbc8', version: '21.1.0.0'
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.25'
+}
+
+tasks.withType(JavaCompile) {
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
+    options.encoding = 'UTF-8'
+}
+
+tasks.test {
+    useJUnit()
+    include '**/Runner*.class'
+}
+
+tasks.register('integrationTest', Test) {
+    include '**/test/**/*.java'
+    systemProperty 'surefire.security.manager', 'java.lang.SecurityManager'
+}
+
+tasks.register('serenityReports') {
+    dependsOn 'integrationTest'
+    doLast {
+        // Custom task logic for generating reports
+        println 'Generating Serenity reports...'
+    }
+}

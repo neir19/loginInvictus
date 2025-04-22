@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="como usuario de invictus realizo un login" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-22T21:48:04" hostname="UXFAQA004L" time="25.732">
+  <properties/>
+  <testcase name="loguearse en invictus" classname="como usuario de invictus realizo un login" time="25.732"/>
+  <system-out><![CDATA[
+@loginExitoso
+Escenario: loguearse en invictus               ?[90m# src/test/resources/features/Login.feature:8?[0m
+entre al try
+el querry es: UPDATE hierarchies.EQUIPMENTS SET name = '927da8f3-55fb-4847-8aca-78d66ac99023', fingerprint = NULL WHERE id_equipment =25;
+  ?[32mDado ?[0m?[32mel usuario ingresa a invictus?[0m           ?[90m# stepsDefinitions.LoginSteps.elUsuarioIngresaAInvictus()?[0m
+  ?[32mCuando ?[0m?[32mingresa usuario y contraseÃ±a?[0m          ?[90m# stepsDefinitions.LoginSteps.ingresaUsuarioYContraseÃ±a()?[0m
+  ?[32mEntonces ?[0m?[32mel sistema muestra mensaje del home?[0m ?[90m# stepsDefinitions.LoginSteps.elSistemaMuestraMensajeDelHome()?[0m
+]]></system-out>
+  <system-err><![CDATA[abr. 22, 2025 4:48:06 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 135
+abr. 22, 2025 4:48:06 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+ADVERTENCIA: Unable to find version of CDP to use for 135.0.7049.84. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>
